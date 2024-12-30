@@ -1,6 +1,5 @@
 import { prisma } from "@/utils/prisma";
 import { NextResponse } from "next/server";
-import React from "react";
 
 const GET = async (request: Request) => {
   try {
