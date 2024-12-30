@@ -14,11 +14,12 @@ datasource db {
 }
 
 
-model News {
+model Post {
   id String @id @default(uuid()) @map("_id")
   articleId String
   title String
   url String
   author String
-  createdAt DateTime
+  createdUpload String
+  createdAt DateTime @default(now())
 }

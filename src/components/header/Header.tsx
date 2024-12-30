@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Form } from "./Form";
 const Header = () => {
     return (
-        <div className="w-full h-[70vh] relative">
+        <div className="w-full h-[65vh] relative shadow">
             <img className="w-full h-full object-cover -z-0 select-none" src="/homepage-background.svg" alt="" />
             <header className="top-0 left-0 h-16 absolute w-full flex items-center justify-center">
                 <div className="flex items-center justify-between w-11/12">
@@ -22,7 +22,7 @@ const Header = () => {
                 <div className="flex flex-col items-center justify-center w- gap-2">
                     <h1 className="text-gray-300 font-semibold tracking-wider text-4xl uppercase w-3/5">Technology</h1>
                     <Form />
-                    <p className="w-3/5 mt-8 text-gray-300">Stay Continuously Updated with Groundbreaking Innovations, Forge a Technological Revolution with News that Shaping the Future and Paving the Way for Tomorrow!</p>
+                    <p className="w-3/5 mt-8 text-gray-300">Harnessing the power of artificial intelligence and medical imaging, we deliver groundbreaking solutions for early brain tumor detection through MRI, opening the door to hope, optimizing treatment, and enhancing the quality of life for patients.</p>
                 </div>
             </div>
         </div>
