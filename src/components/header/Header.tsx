@@ -11,8 +11,8 @@ const Header = () => {
                         <ul className="flex items-center gap-4 text-gray-200">
                             <li><Link href={"/"}>Home</Link></li>
                             <li><Link href={"#post"}>Post</Link></li>
-                            <li><Link href={"/contact"}>Contact</Link></li>
-                            <li><Link href={"/about"}>About me</Link></li>
+                            <li><Link href={"#contact"}>Contact</Link></li>
+                            <li><Link href={"#about"}>About me</Link></li>
                             <li></li>
                         </ul>
                     </nav>

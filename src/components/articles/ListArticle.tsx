@@ -9,7 +9,7 @@ export const ListArticle = async () => {
       <div className="grid">
           {
               listData?.map((article: Article) => (
-                  <CardArticle title={article.title} author={article.author} date={article.createdUpload} id={article.id} articleId={article.articleId} />
+                  <CardArticle key={article.id} title={article.title} author={article.author} date={article.createdUpload} id={article.id} articleId={article.articleId} />
               ))
           }
     </div>
