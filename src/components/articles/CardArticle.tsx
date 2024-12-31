@@ -16,7 +16,7 @@ export const CardArticle = ({title, author, date, articleId, id}:cardArticleProp
           </p>
         </div>
   
-        <Link href={"#"} className="min-h-full duration-150 translate-x-full group-hover:translate-x-0 w-24 cursor-pointer flex items-center justify-center font-semibold text-white bg-gray-400 hover:bg-gray-300">
+        <Link href={`/article/${id}`} className="min-h-full duration-150 translate-x-full group-hover:translate-x-0 w-24 cursor-pointer flex items-center justify-center font-semibold text-white bg-gray-400 hover:bg-gray-300">
           {">>>"}
         </Link>
       </div>

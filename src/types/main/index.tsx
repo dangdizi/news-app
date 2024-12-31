@@ -13,3 +13,22 @@ export interface Article {
   title: string;
   url: string;
 }
+
+export interface findArticleByIdProps {
+  id: string;
+}
+
+export interface paramsArticleProps {
+  id: string;
+}
+
+export interface articleProps {
+  title: string;
+  abstract: string;
+  author: string;
+  date: string;
+}
+
+export interface articleId {
+  params: string;
+}
