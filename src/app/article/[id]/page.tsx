@@ -28,7 +28,7 @@ const ArticlePage = () => {
   }
 
   return <>
-    <Article title={articleData.title} author={articleData.author} date={articleData.date} abstract={articleData.abstract} />
+    <Article title={articleData.title} author={articleData.author} date={articleData.date} abstract={articleData.abstract} url={articleData.url} />
   </>;
 };
 
