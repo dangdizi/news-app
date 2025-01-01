@@ -21,7 +21,7 @@ export const ListArticle = () => {
   }
 
   return (
-    <div className="grid">
+    <div className="grid gap-4">
       {listData.map((article: Article) => (
         <CardArticle
           key={article.id}

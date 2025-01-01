@@ -24,7 +24,7 @@ const ArticlePage = () => {
   }, [id]);
 
   if (!articleData) {
-    return <div>Loading...</div>; // Hiển thị khi dữ liệu chưa được tải
+    return <div>{id}</div>; // Hiển thị khi dữ liệu chưa được tải
   }
 
   return <>

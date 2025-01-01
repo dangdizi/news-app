@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const LeftColumn = () => {
   return (
-    <nav>
+    <nav className="bg-white rounded shadow p-4 sticky top-0">
       <label className="block text-xl font-semibold uppercase text-gray-500">
         Categories
       </label>
